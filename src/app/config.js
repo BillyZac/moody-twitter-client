@@ -11,6 +11,10 @@
             templateUrl: 'app/home/home.html',
             controller: 'HomeController as home'
           })
+          .state('personalityChart', {
+            url: '/personality-chart',
+            templateUrl: 'app/personality-chart/personality-chart.html'
+          })
 
           $urlRouterProvider.otherwise('/')
     }
